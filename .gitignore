@@ -1,18 +1,23 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+peers.json
+genesis.json
+secretsManagerConfig.json
+*-packr.go
+config*.json
 
-# Other files and folders
-.settings/
+bin/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+test-chain*
+polygon-edge-chain*
+.idea
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Exclude the build .exe file from version control
+dist/
+main.exe
+main
+
+# MacOS Leftovers
+.DS_Store
+.vscode
+
+# exclude build folder
+artifacts
